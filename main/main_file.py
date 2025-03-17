@@ -3,7 +3,7 @@ from io import BytesIO
 
 import requests
 from PIL import Image
-
+from search_spn import find_spn
 
 toponym_to_find = " ".join(sys.argv[1:])
 geocoder_api_server = "http://geocode-maps.yandex.ru/1.x/"
